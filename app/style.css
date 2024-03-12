@@ -1,0 +1,43 @@
+#app {
+  background: black;
+  color: white;
+  display: grid;
+  font: 900 3rem Jua;   
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  display: grid;
+  gap: 10px;
+  margin: auto;
+  place-items: center;
+}
+
+.gif {
+  height: 350px;
+}
+
+.btns {
+  display: flex;
+  gap: 40px;
+  width: 60%;
+}
+
+.yes {
+  margin-right: auto;
+}
+
+.no {
+  transition: .4s all;
+}
+
+button {
+  background: #59c9e8;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font: 900 2rem Jua;   
+  padding: 15px 30px;
+}
